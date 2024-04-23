@@ -361,6 +361,12 @@ public class PanelGestion extends JPanel {
 		return true;
 	}
 	
+	/**
+	 * Método que comprueba si el string pasado es double
+	 * @param s
+	 * @return
+	 */
+	
 	private Boolean isSaldoLimitDouble(String s) {
 		if(s.contains(",") || s.contains(".")) return true;
 		else return false;
